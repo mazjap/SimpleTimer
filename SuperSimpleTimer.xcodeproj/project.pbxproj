@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFFA59D2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA59C2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift */; };
+		0EFFA59F2A7B74C90098D2A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA59E2A7B74C90098D2A2 /* ContentView.swift */; };
+		0EFFA5A12A7B74CC0098D2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFFA5A02A7B74CC0098D2A2 /* Assets.xcassets */; };
+		0EFFA5A42A7B74CC0098D2A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFFA5A32A7B74CC0098D2A2 /* Preview Assets.xcassets */; };
+		0EFFA5AF2A7B74CC0098D2A2 /* SuperSimpleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5AE2A7B74CC0098D2A2 /* SuperSimpleTimerTests.swift */; };
+		0EFFA5B92A7B74CC0098D2A2 /* SuperSimpleTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5B82A7B74CC0098D2A2 /* SuperSimpleTimerUITests.swift */; };
+		0EFFA5BB2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5BA2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EFFA5AB2A7B74CC0098D2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFFA5912A7B74C90098D2A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EFFA5982A7B74C90098D2A2;
+			remoteInfo = SuperSimpleTimer;
+		};
+		0EFFA5B52A7B74CC0098D2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFFA5912A7B74C90098D2A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EFFA5982A7B74C90098D2A2;
+			remoteInfo = SuperSimpleTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFFA5992A7B74C90098D2A2 /* SuperSimpleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSimpleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFFA59C2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSimpleTimerApp.swift; sourceTree = "<group>"; };
+		0EFFA59E2A7B74C90098D2A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EFFA5A02A7B74CC0098D2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EFFA5A32A7B74CC0098D2A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EFFA5A52A7B74CC0098D2A2 /* SuperSimpleTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuperSimpleTimer.entitlements; sourceTree = "<group>"; };
+		0EFFA5AA2A7B74CC0098D2A2 /* SuperSimpleTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSimpleTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFFA5AE2A7B74CC0098D2A2 /* SuperSimpleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSimpleTimerTests.swift; sourceTree = "<group>"; };
+		0EFFA5B42A7B74CC0098D2A2 /* SuperSimpleTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSimpleTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFFA5B82A7B74CC0098D2A2 /* SuperSimpleTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSimpleTimerUITests.swift; sourceTree = "<group>"; };
+		0EFFA5BA2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSimpleTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFFA5962A7B74C90098D2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFFA5A72A7B74CC0098D2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFFA5B12A7B74CC0098D2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFFA5902A7B74C90098D2A2 = {
+			isa = PBXGroup;
+			children = (
+				0EFFA59B2A7B74C90098D2A2 /* SuperSimpleTimer */,
+				0EFFA5AD2A7B74CC0098D2A2 /* SuperSimpleTimerTests */,
+				0EFFA5B72A7B74CC0098D2A2 /* SuperSimpleTimerUITests */,
+				0EFFA59A2A7B74C90098D2A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EFFA59A2A7B74C90098D2A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFFA5992A7B74C90098D2A2 /* SuperSimpleTimer.app */,
+				0EFFA5AA2A7B74CC0098D2A2 /* SuperSimpleTimerTests.xctest */,
+				0EFFA5B42A7B74CC0098D2A2 /* SuperSimpleTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFFA59B2A7B74C90098D2A2 /* SuperSimpleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0EFFA59C2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift */,
+				0EFFA59E2A7B74C90098D2A2 /* ContentView.swift */,
+				0EFFA5A02A7B74CC0098D2A2 /* Assets.xcassets */,
+				0EFFA5A52A7B74CC0098D2A2 /* SuperSimpleTimer.entitlements */,
+				0EFFA5A22A7B74CC0098D2A2 /* Preview Content */,
+			);
+			path = SuperSimpleTimer;
+			sourceTree = "<group>";
+		};
+		0EFFA5A22A7B74CC0098D2A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0EFFA5A32A7B74CC0098D2A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EFFA5AD2A7B74CC0098D2A2 /* SuperSimpleTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFFA5AE2A7B74CC0098D2A2 /* SuperSimpleTimerTests.swift */,
+			);
+			path = SuperSimpleTimerTests;
+			sourceTree = "<group>";
+		};
+		0EFFA5B72A7B74CC0098D2A2 /* SuperSimpleTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFFA5B82A7B74CC0098D2A2 /* SuperSimpleTimerUITests.swift */,
+				0EFFA5BA2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift */,
+			);
+			path = SuperSimpleTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EFFA5982A7B74C90098D2A2 /* SuperSimpleTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFFA5BE2A7B74CC0098D2A2 /* Build configuration list for PBXNativeTarget "SuperSimpleTimer" */;
+			buildPhases = (
+				0EFFA5952A7B74C90098D2A2 /* Sources */,
+				0EFFA5962A7B74C90098D2A2 /* Frameworks */,
+				0EFFA5972A7B74C90098D2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSimpleTimer;
+			productName = SuperSimpleTimer;
+			productReference = 0EFFA5992A7B74C90098D2A2 /* SuperSimpleTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EFFA5A92A7B74CC0098D2A2 /* SuperSimpleTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFFA5C12A7B74CC0098D2A2 /* Build configuration list for PBXNativeTarget "SuperSimpleTimerTests" */;
+			buildPhases = (
+				0EFFA5A62A7B74CC0098D2A2 /* Sources */,
+				0EFFA5A72A7B74CC0098D2A2 /* Frameworks */,
+				0EFFA5A82A7B74CC0098D2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFFA5AC2A7B74CC0098D2A2 /* PBXTargetDependency */,
+			);
+			name = SuperSimpleTimerTests;
+			productName = SuperSimpleTimerTests;
+			productReference = 0EFFA5AA2A7B74CC0098D2A2 /* SuperSimpleTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EFFA5B32A7B74CC0098D2A2 /* SuperSimpleTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFFA5C42A7B74CC0098D2A2 /* Build configuration list for PBXNativeTarget "SuperSimpleTimerUITests" */;
+			buildPhases = (
+				0EFFA5B02A7B74CC0098D2A2 /* Sources */,
+				0EFFA5B12A7B74CC0098D2A2 /* Frameworks */,
+				0EFFA5B22A7B74CC0098D2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFFA5B62A7B74CC0098D2A2 /* PBXTargetDependency */,
+			);
+			name = SuperSimpleTimerUITests;
+			productName = SuperSimpleTimerUITests;
+			productReference = 0EFFA5B42A7B74CC0098D2A2 /* SuperSimpleTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EFFA5912A7B74C90098D2A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0EFFA5982A7B74C90098D2A2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0EFFA5A92A7B74CC0098D2A2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0EFFA5982A7B74C90098D2A2;
+					};
+					0EFFA5B32A7B74CC0098D2A2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0EFFA5982A7B74C90098D2A2;
+					};
+				};
+			};
+			buildConfigurationList = 0EFFA5942A7B74C90098D2A2 /* Build configuration list for PBXProject "SuperSimpleTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EFFA5902A7B74C90098D2A2;
+			productRefGroup = 0EFFA59A2A7B74C90098D2A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EFFA5982A7B74C90098D2A2 /* SuperSimpleTimer */,
+				0EFFA5A92A7B74CC0098D2A2 /* SuperSimpleTimerTests */,
+				0EFFA5B32A7B74CC0098D2A2 /* SuperSimpleTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFFA5972A7B74C90098D2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFFA5A42A7B74CC0098D2A2 /* Preview Assets.xcassets in Resources */,
+				0EFFA5A12A7B74CC0098D2A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFFA5A82A7B74CC0098D2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFFA5B22A7B74CC0098D2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFFA5952A7B74C90098D2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFFA59F2A7B74C90098D2A2 /* ContentView.swift in Sources */,
+				0EFFA59D2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFFA5A62A7B74CC0098D2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFFA5AF2A7B74CC0098D2A2 /* SuperSimpleTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFFA5B02A7B74CC0098D2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFFA5BB2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift in Sources */,
+				0EFFA5B92A7B74CC0098D2A2 /* SuperSimpleTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EFFA5AC2A7B74CC0098D2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EFFA5982A7B74C90098D2A2 /* SuperSimpleTimer */;
+			targetProxy = 0EFFA5AB2A7B74CC0098D2A2 /* PBXContainerItemProxy */;
+		};
+		0EFFA5B62A7B74CC0098D2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EFFA5982A7B74C90098D2A2 /* SuperSimpleTimer */;
+			targetProxy = 0EFFA5B52A7B74CC0098D2A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EFFA5BC2A7B74CC0098D2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EFFA5BD2A7B74CC0098D2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0EFFA5BF2A7B74CC0098D2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SuperSimpleTimer/SuperSimpleTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperSimpleTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = HFR8F4BT7E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0EFFA5C02A7B74CC0098D2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SuperSimpleTimer/SuperSimpleTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperSimpleTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = HFR8F4BT7E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0EFFA5C22A7B74CC0098D2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFR8F4BT7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSimpleTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperSimpleTimer";
+			};
+			name = Debug;
+		};
+		0EFFA5C32A7B74CC0098D2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFR8F4BT7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSimpleTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperSimpleTimer";
+			};
+			name = Release;
+		};
+		0EFFA5C52A7B74CC0098D2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFR8F4BT7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SuperSimpleTimer;
+			};
+			name = Debug;
+		};
+		0EFFA5C62A7B74CC0098D2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFR8F4BT7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SuperSimpleTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFFA5942A7B74C90098D2A2 /* Build configuration list for PBXProject "SuperSimpleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFFA5BC2A7B74CC0098D2A2 /* Debug */,
+				0EFFA5BD2A7B74CC0098D2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFFA5BE2A7B74CC0098D2A2 /* Build configuration list for PBXNativeTarget "SuperSimpleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFFA5BF2A7B74CC0098D2A2 /* Debug */,
+				0EFFA5C02A7B74CC0098D2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFFA5C12A7B74CC0098D2A2 /* Build configuration list for PBXNativeTarget "SuperSimpleTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFFA5C22A7B74CC0098D2A2 /* Debug */,
+				0EFFA5C32A7B74CC0098D2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFFA5C42A7B74CC0098D2A2 /* Build configuration list for PBXNativeTarget "SuperSimpleTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFFA5C52A7B74CC0098D2A2 /* Debug */,
+				0EFFA5C62A7B74CC0098D2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EFFA5912A7B74C90098D2A2 /* Project object */;
+}
