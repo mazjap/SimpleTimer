@@ -8,11 +8,13 @@ enum TimerActionDecodingError: LocalizedError {
 enum TimerAction {
     case set(TimerDuration)
     case add(TimerDuration)
+//    case subtract(TimerDuration)
     
     init(rawValue: String) throws {
         let string = rawValue.removing(.whitespacesAndNewlines).lowercased()
         
-        let addPrefixes = ["add", "a"]
+        let addPrefixes = ["adding", "adds", "add", "plus", "a", "+"]
+        let subtractPrefixes = ["subtracting", "subtracts", "subtract", "minus", "-"]
         let setPrefixes = ["set", "s"]
         let prefixes = addPrefixes + setPrefixes
         
@@ -25,7 +27,7 @@ enum TimerAction {
         let withoutSuffix = suffixes.reduce(string) { $0.withoutSuffix($1) }
         let numberString = prefixes.reduce(withoutSuffix) { $0.withoutPrefix($1) }
         
-        guard let number = UInt(numberString) else {
+        guard let number = Double(numberString) else {
             throw TimerActionDecodingError.incorrectFormat("'\(numberString)' expected integer")
         }
         

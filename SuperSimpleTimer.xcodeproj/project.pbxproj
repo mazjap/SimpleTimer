@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E98C6E52D78B5FB0046115A /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98C6E42D78B5FB0046115A /* TimerManager.swift */; };
+		0E98C6E72D78EF700046115A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98C6E62D78EF700046115A /* Sound.swift */; };
+		0E98C6E92D78F3290046115A /* RepeatingSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98C6E82D78F3290046115A /* RepeatingSoundPlayer.swift */; };
+		0E98C6EB2D78FAFE0046115A /* AudioSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98C6EA2D78FAFE0046115A /* AudioSettingsView.swift */; };
+		0E98C6ED2D790B190046115A /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E98C6EC2D790B190046115A /* HelpView.swift */; };
 		0EFFA59D2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA59C2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift */; };
 		0EFFA59F2A7B74C90098D2A2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA59E2A7B74C90098D2A2 /* TimerView.swift */; };
 		0EFFA5A12A7B74CC0098D2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFFA5A02A7B74CC0098D2A2 /* Assets.xcassets */; };
@@ -16,12 +21,12 @@
 		0EFFA5BB2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5BA2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift */; };
 		0EFFA5C82A7B75040098D2A2 /* TimerDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5C72A7B75040098D2A2 /* TimerDuration.swift */; };
 		0EFFA5CA2A7B7FA30098D2A2 /* NSTextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5C92A7B7FA30098D2A2 /* NSTextField+Extension.swift */; };
-		0EFFA5CC2A7B923B0098D2A2 /* GeneralSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5CB2A7B923B0098D2A2 /* GeneralSettings.swift */; };
+		0EFFA5CC2A7B923B0098D2A2 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5CB2A7B923B0098D2A2 /* GeneralSettingsView.swift */; };
 		0EFFA5CE2A7B9B180098D2A2 /* RightAngleTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5CD2A7B9B180098D2A2 /* RightAngleTriangle.swift */; };
-		0EFFA5D92A7BAAA60098D2A2 /* UsageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5D82A7BAAA60098D2A2 /* UsageType.swift */; };
-		0EFFA5DB2A7BAABC0098D2A2 /* StopWatchTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5DA2A7BAABC0098D2A2 /* StopWatchTime.swift */; };
 		0EFFA5E52A7C1CC50098D2A2 /* TimerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5E42A7C1CC50098D2A2 /* TimerAction.swift */; };
 		0EFFA5E72A7C1E0D0098D2A2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5E62A7C1E0D0098D2A2 /* String+Extension.swift */; };
+		0EFFA5E92A7C369A0098D2A2 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5E82A7C369A0098D2A2 /* Color+Extension.swift */; };
+		0EFFA5EB2A7C50F40098D2A2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFA5EA2A7C50F40098D2A2 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E98C6E42D78B5FB0046115A /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		0E98C6E62D78EF700046115A /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		0E98C6E82D78F3290046115A /* RepeatingSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSoundPlayer.swift; sourceTree = "<group>"; };
+		0E98C6EA2D78FAFE0046115A /* AudioSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSettingsView.swift; sourceTree = "<group>"; };
+		0E98C6EC2D790B190046115A /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		0EFFA5992A7B74C90098D2A2 /* SuperSimpleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSimpleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFFA59C2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSimpleTimerApp.swift; sourceTree = "<group>"; };
 		0EFFA59E2A7B74C90098D2A2 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
@@ -55,12 +65,12 @@
 		0EFFA5BA2A7B74CC0098D2A2 /* SuperSimpleTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSimpleTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0EFFA5C72A7B75040098D2A2 /* TimerDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDuration.swift; sourceTree = "<group>"; };
 		0EFFA5C92A7B7FA30098D2A2 /* NSTextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextField+Extension.swift"; sourceTree = "<group>"; };
-		0EFFA5CB2A7B923B0098D2A2 /* GeneralSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettings.swift; sourceTree = "<group>"; };
+		0EFFA5CB2A7B923B0098D2A2 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
 		0EFFA5CD2A7B9B180098D2A2 /* RightAngleTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightAngleTriangle.swift; sourceTree = "<group>"; };
-		0EFFA5D82A7BAAA60098D2A2 /* UsageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageType.swift; sourceTree = "<group>"; };
-		0EFFA5DA2A7BAABC0098D2A2 /* StopWatchTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTime.swift; sourceTree = "<group>"; };
 		0EFFA5E42A7C1CC50098D2A2 /* TimerAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAction.swift; sourceTree = "<group>"; };
 		0EFFA5E62A7C1E0D0098D2A2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0EFFA5E82A7C369A0098D2A2 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		0EFFA5EA2A7C50F40098D2A2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +121,12 @@
 		0EFFA59B2A7B74C90098D2A2 /* SuperSimpleTimer */ = {
 			isa = PBXGroup;
 			children = (
+				0E98C6E42D78B5FB0046115A /* TimerManager.swift */,
+				0E98C6E82D78F3290046115A /* RepeatingSoundPlayer.swift */,
 				0EFFA5D22A7BA1AB0098D2A2 /* Resources */,
 				0EFFA5D12A7BA19F0098D2A2 /* Views */,
-				0EFFA5D02A7BA1880098D2A2 /* Extensions */,
 				0EFFA5D32A7BA23B0098D2A2 /* Models */,
+				0EFFA5D02A7BA1880098D2A2 /* Extensions */,
 				0EFFA5A22A7B74CC0098D2A2 /* Preview Content */,
 			);
 			path = SuperSimpleTimer;
@@ -157,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				0EFFA5C92A7B7FA30098D2A2 /* NSTextField+Extension.swift */,
+				0EFFA5E82A7C369A0098D2A2 /* Color+Extension.swift */,
 				0EFFA5E62A7C1E0D0098D2A2 /* String+Extension.swift */,
 			);
 			path = Extensions;
@@ -165,8 +178,10 @@
 		0EFFA5D12A7BA19F0098D2A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0EFFA5CB2A7B923B0098D2A2 /* GeneralSettings.swift */,
+				0EFFA5CB2A7B923B0098D2A2 /* GeneralSettingsView.swift */,
+				0E98C6EA2D78FAFE0046115A /* AudioSettingsView.swift */,
 				0EFFA59E2A7B74C90098D2A2 /* TimerView.swift */,
+				0E98C6EC2D790B190046115A /* HelpView.swift */,
 				0EFFA5CF2A7BA1800098D2A2 /* Shapes */,
 			);
 			path = Views;
@@ -187,8 +202,8 @@
 			children = (
 				0EFFA5C72A7B75040098D2A2 /* TimerDuration.swift */,
 				0EFFA5E42A7C1CC50098D2A2 /* TimerAction.swift */,
-				0EFFA5DA2A7BAABC0098D2A2 /* StopWatchTime.swift */,
-				0EFFA5D82A7BAAA60098D2A2 /* UsageType.swift */,
+				0E98C6E62D78EF700046115A /* Sound.swift */,
+				0EFFA5EA2A7C50F40098D2A2 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,15 +339,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFFA5CE2A7B9B180098D2A2 /* RightAngleTriangle.swift in Sources */,
-				0EFFA5D92A7BAAA60098D2A2 /* UsageType.swift in Sources */,
 				0EFFA5CA2A7B7FA30098D2A2 /* NSTextField+Extension.swift in Sources */,
-				0EFFA5DB2A7BAABC0098D2A2 /* StopWatchTime.swift in Sources */,
 				0EFFA59F2A7B74C90098D2A2 /* TimerView.swift in Sources */,
+				0E98C6E52D78B5FB0046115A /* TimerManager.swift in Sources */,
 				0EFFA59D2A7B74C90098D2A2 /* SuperSimpleTimerApp.swift in Sources */,
+				0E98C6E92D78F3290046115A /* RepeatingSoundPlayer.swift in Sources */,
 				0EFFA5E52A7C1CC50098D2A2 /* TimerAction.swift in Sources */,
+				0E98C6EB2D78FAFE0046115A /* AudioSettingsView.swift in Sources */,
 				0EFFA5C82A7B75040098D2A2 /* TimerDuration.swift in Sources */,
+				0E98C6E72D78EF700046115A /* Sound.swift in Sources */,
 				0EFFA5E72A7C1E0D0098D2A2 /* String+Extension.swift in Sources */,
-				0EFFA5CC2A7B923B0098D2A2 /* GeneralSettings.swift in Sources */,
+				0EFFA5EB2A7C50F40098D2A2 /* Theme.swift in Sources */,
+				0EFFA5E92A7C369A0098D2A2 /* Color+Extension.swift in Sources */,
+				0E98C6ED2D790B190046115A /* HelpView.swift in Sources */,
+				0EFFA5CC2A7B923B0098D2A2 /* GeneralSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +526,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,6 +554,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mazjap.SuperSimpleTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
