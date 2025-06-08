@@ -7,8 +7,8 @@ enum TimerActionDecodingError: LocalizedError {
 
 enum TimerAction {
     case set(TimerDuration)
+    // Supports adding negative numbers
     case add(TimerDuration)
-//    case subtract(TimerDuration)
     
     init(rawValue: String) throws {
         let string = rawValue.removing(.whitespacesAndNewlines).lowercased()
@@ -45,7 +45,7 @@ enum TimerAction {
             throw TimerActionDecodingError.incorrectFormat(withoutPrefix.withoutPrefix(numberString))
         }
         
-        if addPrefixes.reduce(false, { $0 || string.hasPrefix($1) }) {
+        if addPrefixes.reduce(false, { $0 || string.hasPrefix($1) }) || subtractPrefixes.reduce(false, { $0 || string.hasPrefix($1) }) {
             self = .add(timerDuration)
         } else if withoutSuffix.withoutSuffix(numberString).isEmpty || setPrefixes.reduce(false, { $0 || string.hasPrefix($1) }) {
             self = .set(timerDuration)

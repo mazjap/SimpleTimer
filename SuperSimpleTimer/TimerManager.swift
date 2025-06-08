@@ -53,7 +53,7 @@ class TimerManager {
     init(startTime: Date? = nil, timeString: String? = nil) {
         let selectedTimerDuration: TimerDuration
         
-        if let seconds = Self.userDefaults.value(forKey: Self.selectedTimerDurationKey) as? Double {
+        if let seconds = Self.userDefaults.value(forKey: Self.selectedTimerDurationKey) as? Double, seconds >= 0 {
             selectedTimerDuration = .init(seconds: seconds)
         } else {
             selectedTimerDuration = .minutes(15)
@@ -90,7 +90,7 @@ class TimerManager {
             selectedTimerDuration = duration
             startTime = .now
         case let .add(duration):
-            selectedTimerDuration = TimerDuration(seconds: selectedTimerDuration.totalSeconds + duration.totalSeconds)
+            selectedTimerDuration = TimerDuration(seconds: max(0, selectedTimerDuration.totalSeconds + duration.totalSeconds))
         }
     }
     
